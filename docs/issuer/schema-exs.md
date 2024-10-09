@@ -30,7 +30,7 @@ Here are some schemas with different data types.
   "credentialSchema": "https://raw.githubusercontent.com/0xPolygonID/sh-id-platform/adding-schema-examples/docs/examples/schemas/json/exampleBoolean.json",
   "type": "CodingExperienceCredential",
   "credentialSubject": {
-    "id": "did:polygonid:polygon:amoy:2qLPX9XnujT2xhuiPMHrqXTUD96UCV87CtThRUZFQm",
+    "id": "did:opid:optimism:sepolia:2qLPX9XnujT2xhuiPMHrqXTUD96UCV87CtThRUZFQm",
     "codingExperience": true
   },
   "expiration": "2025-04-05T08:34:07.117Z",

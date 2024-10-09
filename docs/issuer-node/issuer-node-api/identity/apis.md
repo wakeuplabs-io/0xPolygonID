@@ -83,7 +83,7 @@ Read more about Identity types on <ins>[Iden3 Docs](https://docs.iden3.io/gettin
 
 The Issuer Node responds by sending a response message that contains:
 
-- `identifier`: Identifier of the Issuer in the standard DID format. For example: `did:polygonid:polygon:amoy:2qNBWSAsyvaGBpqQVHk3E4cgChaN6ogaZnYCQUyoRQ`
+- `identifier`: Identifier of the Issuer in the standard DID format. For example: `did:opid:optimism:sepolia:2qNBWSAsyvaGBpqQVHk3E4cgChaN6ogaZnYCQUyoRQ`
 
 - `identity state`: It is the state of the identity and contains fields that include `claimsTreeRoot` (Verifiable Credentials are added to the Claims Tree and its root is calculated), `state` (state of identity), and `status` (whether the status of the identity state is confirmed or pending). `identity state` also contains the timestamp when the identity was created (`createdAt`) or updated(`modifiedAt`).
 
@@ -101,7 +101,7 @@ The Issuer Node responds by sending a response message that contains:
 
 - `identifier`: Identifier of the Issuer in the standard DID format. For example:
 
-`did:polygonid:polygon:amoy:2qNBWSAsyvaGBpqQVHk3E4cgChaN6ogaZnYCQUyoRQ`
+`did:opid:optimism:sepolia:2qNBWSAsyvaGBpqQVHk3E4cgChaN6ogaZnYCQUyoRQ`
 
 <a href="https://self-hosted-platform.polygonid.me/#get-/v1/identities" target="_blank">API Reference</a>
 

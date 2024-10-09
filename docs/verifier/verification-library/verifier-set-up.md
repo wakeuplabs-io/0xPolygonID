@@ -159,7 +159,7 @@ func GetAuthRequest(w http.ResponseWriter, r *http.Request) {
 rURL := "NGROK URL"
 sessionID := 1
 CallbackURL := "/api/callback"
-Audience := "did:polygonid:polygon:amoy:2qQ68JkRcf3xrHPQPWZei3YeVzHPP58wYNxx2mEouR"
+Audience := "did:opid:optimism:sepolia:2qQ68JkRcf3xrHPQPWZei3YeVzHPP58wYNxx2mEouR"
 
 uri := fmt.Sprintf("%s%s?sessionId=%s", rURL, CallbackURL, strconv.Itoa(sessionID))
 
@@ -209,7 +209,7 @@ async function GetAuthRequest(req, res) {
   const hostUrl = "<NGROK_URL>";
   const sessionId = 1;
   const callbackURL = "/api/callback";
-  const audience = "did:polygonid:polygon:amoy:2qQ68JkRcf3xrHPQPWZei3YeVzHPP58wYNxx2mEouR";
+  const audience = "did:opid:optimism:sepolia:2qQ68JkRcf3xrHPQPWZei3YeVzHPP58wYNxx2mEouR";
 
   const uri = `${hostUrl}${callbackURL}?sessionId=${sessionId}`;
 

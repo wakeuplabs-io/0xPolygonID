@@ -937,7 +937,7 @@ In the example below, the verifier requests two different proof queries in the s
   "typ": "application/iden3comm-plain-json",
   "type": "https://iden3-communication.io/authorization/1.0/request",
   "thid": "f8aee09d-f592-4fcc-8d2a-8938aa26676c",
-  "from": "did:polygonid:polygon:amoy:2qFroxB5kwgCxgVrNGUM6EW3khJgCdHHnKTr3VnTcp",
+  "from": "did:opid:optimism:sepolia:2qFroxB5kwgCxgVrNGUM6EW3khJgCdHHnKTr3VnTcp",
   "body": {
     "callbackUrl": "https://test.com/callback",
     "reason": "age verification",

@@ -28,8 +28,7 @@ Current notification flow:
 
 **Glossary:**
 
-- _wallet_ - mobile application published by Polygon.
-- _verifier_ - backend for Polygon Verify application that verifies user documents.
+- _verifier_ - backend for Optimism Verify application that verifies user documents.
 - _Push Gateway (PG)_ - service to deliver push notifications to the wallet app.
 - _Push notification_ - notification that contains a link to protocol message or protocol message itself that is delivered through the notification provider.
 
@@ -48,7 +47,7 @@ Current notification flow:
 ```json
 {
   "@context": ["https://www.w3.org/ns/did/v1"],
-  "id": "did:polygonid:polygon:amoy:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc"
+  "id": "did:opid:optimism:sepolia:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc"
 }
 ```
 
@@ -73,9 +72,9 @@ You can add information about keys / authentication info optionally. Follow [thi
        "https://www.w3.org/ns/did/v1",
        "https://schema.iden3.io/core/jsonld/auth.jsonld"
      ],
-     "id": "did:polygonid:polygon:amoy:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc",
+     "id": "did:opid:optimism:sepolia:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc",
      "service": {
-       "id": "did:polygonid:polygon:amoy:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc#push",
+       "id": "did:opid:optimism:sepolia:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc#push",
        "type": "push-notification",
        "serviceEndpoint": "https://push-staging.polygonid.com/api/v1",
        "metadata": {

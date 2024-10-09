@@ -39,7 +39,7 @@ VERIFIER_BACKEND_HOST=https://your-public-ip
 VERIFIER_BACKEND_PORT=3010
 VERIFIER_BACKEND_KEY_DIR=./keys
 VERIFIER_IPFS_URL=https://gateway.pinata.cloud
-VERIFIER_BACKEN_AMOY_SENDER_DID=did:polygonid:polygon:amoy:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT
+VERIFIER_BACKEN_AMOY_SENDER_DID=did:opid:optimism:sepolia:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT
 VERIFIER_BACKEND_MAIN_SENDER_DID=did:polygonid:polygon:main:2q4Q7F7tM1xpwUTgWivb6TgKX3vWirsE3mqymuYjVv
 VERIFIER_BACKEND_RESOLVER_SETTINGS_PATH=./resolvers_settings.yaml
 ```
@@ -113,7 +113,7 @@ This endpoint will respond with a similar response to the following:
         }
       ]
     },
-    "from": "did:polygonid:polygon:amoy:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
+    "from": "did:opid:optimism:sepolia:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
     "id": "7f38a193-0918-4a48-9fac-36adfdb8b542",
     "thid": "7f38a193-0918-4a48-9fac-36adfdb8b542",
     "typ": "application/iden3comm-plain-json",
@@ -161,7 +161,7 @@ For example,
       }
     ]
   },
-  "from": "did:polygonid:polygon:amoy:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
+  "from": "did:opid:optimism:sepolia:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
   "id": "7f38a193-0918-4a48-9fac-36adfdb8b542",
   "thid": "7f38a193-0918-4a48-9fac-36adfdb8b542",
   "typ": "application/iden3comm-plain-json",
