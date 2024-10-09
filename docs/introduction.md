@@ -25,7 +25,7 @@ Every identity is identified by a unique identifier called [DID (Decentralized I
 
 :::note
 
-The toolset made available by Privado ID (prev. Polygon ID) is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Polygon ID DID method</ins>](https://github.com/0xPolygonID/did-polygonid).
+The toolset is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Polygon ID DID method</ins>](https://github.com/0xPolygonID/did-polygonid).
 
 :::
 
@@ -64,7 +64,7 @@ A [Wallet](./wallet/wallet-overview.md) plays a crucial role in the seamless exc
 
 <a href="https://iden3.io/" target="_blank">Iden3</a> is the open-source protocol at the basis of Privado ID. The protocol defines on a low-level how the parties listed above communicate and interact with each other. Privado ID is an abstraction layer to enable developers to build applications leveraging the Iden3 protocol.
 
-## Further Resources On Privado ID (prev. Polygon ID)
+## Further Resources On Privado ID
 
 - [Privado ID Youtube Playlists](https://www.youtube.com/@PrivadoID/playlists?view=50&sort=dd&shelf_id=5)
 - [Polygon ID DID Method Overview at SSI Meetup (April 2023)](https://ssimeetup.org/polygonid-zero-knowledge-identity-web2-web3-otto-mora-webinar-62/)

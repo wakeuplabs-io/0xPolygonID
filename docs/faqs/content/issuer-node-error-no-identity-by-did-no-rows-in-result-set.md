@@ -15,8 +15,8 @@ keywords:
 What steps should I take if an error message says there's no identity found for a given DID?
 
 ```bash
-time=2023-11-27T12:29:51.334Z level=ERROR msg="error getting identity by DID" err="no rows in result set" did=did:polygonid:polygon:amoy:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c
-time=2023-11-27T12:29:51.334Z level=ERROR msg="issuer DID must exist" did="{Method:polygonid ID:polygon:amoy:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c IDStrings:[polygon amoy 2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c] Params:[] Path: PathSegments:[] Query: Fragment:}"
+time=2023-11-27T12:29:51.334Z level=ERROR msg="error getting identity by DID" err="no rows in result set" did=did:opid:optimism:sepolia:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c
+time=2023-11-27T12:29:51.334Z level=ERROR msg="issuer DID must exist" did="{Method:opid ID:optimism:sepolia:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c IDStrings:[optimism sepolia 2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c] Params:[] Path: PathSegments:[] Query: Fragment:}"
 ```
 
 ## Answer
