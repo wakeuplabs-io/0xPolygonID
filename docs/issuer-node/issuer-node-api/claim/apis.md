@@ -37,7 +37,7 @@ The following parameters are passed in the body of the request:
 
 - `credentialSchema`: it is a template for a Verifiable Credential that guarantees the structure of a credential. This way, an Issuer, a Holder, and a Verifier can reference the data in a known way. Further details on the `credentialSchema` can be found in the [Create Custom Schema](../../../issuer/schema.md) section.
 - `type`: the type of the credential schema sent.
-- `credentialSubject`: contains DID (Decentralized Identifier), i.e. `did`, of the user and the fields related to the data to be attested. You should have previously obtained this identifier from the user by performing a "basic auth" step, this can be done through the [Authentication/QRcode step](https://issuer-admin.polygonid.me/#get-/v1/authentication/qrcode).
+- `credentialSubject`: contains DID (Decentralized Identifier), i.e. `did`, of the user and the fields related to the data to be attested. You should have previously obtained this identifier from the user by performing a "basic auth" step, this can be done through the Authentication/QRcode step.
 - `expiration`: Date of expiry of the Verifiable Credential.
 
 :::note
@@ -47,8 +47,6 @@ Depending on the schema a user opts for, the request body may contain some field
 :::
 
 The Issuer Node responds by sending a response message that contains the string `id`, which is the ID of the Verifiable Credential created by the Issuer Node.
-
-<a href="https://self-hosted-platform.polygonid.me/#post-/v2/identities/-identifier-/credentials" target="_blank">API Reference</a>
 
 ## Get Credential
 
@@ -89,7 +87,6 @@ The server responds by sending the following data about the Verifiable Credentia
 
 - `proofTypes`: `types` of proof for example, BJJSignature2021 and SparseMerkleTreeProof
 
-<a href="https://self-hosted-platform.polygonid.me/#get-/v2/identities/-identifier-/credentials/-id-" target="_blank">API Reference</a>
 
 ## Get Credentials
 
@@ -112,7 +109,6 @@ You can retrieve a set of credentials based on different filters or criteria. Th
 
 The Issuer Node responds by sending a response message that contains the Verifiable Credential and all the information related to it. 
 
-<a href="https://self-hosted-platform.polygonid.me/#get-/v2/identities/-identifier-/credentials/search" target="_blank">API Reference</a>
 
 ## Get Credential QR Code
 
@@ -133,7 +129,6 @@ The Issuer Node responds by sending a response message that contains a JSON whic
 - `schemaType` is the type of the schema used for the credential.
 
 
-<a href="https://self-hosted-platform.polygonid.me/#get-/v2/identities/-identifier-/credentials/-id-/qrcode" target="_blank">API Reference</a>
 
 ## Revoke Credential
 
@@ -142,8 +137,6 @@ The Issuer Node responds by sending a response message that contains a JSON whic
 **How it Works**: the Issuer DID (The identifier string retrieved from calling the `Create Identity` endpoint) and `nonce` of the VC to be revoked (Revocation Nonce) are passed as a path variable in the request URL.
 
 The server responds by showing the Revocation Status of the credential.
-
-<a href="https://self-hosted-platform.polygonid.me/#post-/v2/identities/-identifier-/credentials/revoke/-nonce-" target="_blank">API Reference</a>
 
 ## Get Revocation Status
 

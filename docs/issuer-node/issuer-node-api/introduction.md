@@ -5,7 +5,7 @@ sidebar_label: Introduction
 description: Introduction to the Issuer Node APIs and its functionalities.
 keywords:
   - docs
-  - polygon id
+  - optimism id
   - issuer node
   - claim
   - verifiable credentials
