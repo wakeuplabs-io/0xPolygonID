@@ -14,8 +14,6 @@ keywords:
   - schema
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 This tutorial is a quick demonstration of some of Privado ID's main functionalities. To illustrate how Privado ID works, we will walk you through some of its products and tools by following along a simple POAP use case.
 POAP stands for Proof of Attendance Protocol, which is used to prove that someone has taken part in a given event.
 

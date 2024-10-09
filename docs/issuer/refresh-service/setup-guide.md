@@ -14,8 +14,6 @@ keywords:
   - refresh service setup guide
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 > **NOTE: Current implementation of [refresh service](https://github.com/0xPolygonID/refresh-service) works only with [issuer-node](https://github.com/0xPolygonID/issuer-node/).**
 
 ## Preparation

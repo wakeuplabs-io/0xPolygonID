@@ -20,9 +20,6 @@
 
 Privado ID Documentation is the documentation hub providing extensive documentation, community resources, and guides for enthusiasts and developers interested in learning about or building solutions using Privado ID.
 
-The [Privado ID Documentation](https://devs.polygonid.com) website is built using [Docusaurus](https://docusaurus.io/), 
-a modern static website generator to build optimized websites quickly.
-
 ## Contribute to Privado ID Documentation
 ### Requirements
 

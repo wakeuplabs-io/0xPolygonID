@@ -12,8 +12,6 @@ keywords:
   - wallet
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 # Verifier
 
 A Verifier is any web2 or web3 platform that wants to authenticate users based on their Credentials.

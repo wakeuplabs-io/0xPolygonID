@@ -13,8 +13,6 @@ keywords:
   - API
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 # Issuer Node UI
 
 The Issuer Node UI provides the full experience of having an Issuer Node with all its capabilities.

@@ -12,8 +12,6 @@ keywords:
   - verifier
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 The Credential Marketplace is the go-to place for verifiers to find trusted sources for specific credentials related to their business cases. With an ever-growing set of options, verifiers can compare and choose from a variety of credential providers and select the most suitable ones for their needs.
 
 It also offers an environment for issuers to display the credentials they are offering and demonstrate to the community how their credentials can solve business cases.

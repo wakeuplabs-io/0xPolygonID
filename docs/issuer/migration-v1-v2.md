@@ -14,9 +14,6 @@ keywords:
   - UI
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Migration Guide: Upgrading from Issuer Node v1 to v2
 

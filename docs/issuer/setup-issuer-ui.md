@@ -13,10 +13,6 @@ keywords:
   - API
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 This article details the steps to achieve full integration of the Issuer Node with the Polygon ID APIs, as well as instructs on how to set up an intuitive user interface to manage credentials.
 
 :::caution

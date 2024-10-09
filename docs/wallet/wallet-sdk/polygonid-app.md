@@ -12,8 +12,6 @@ keywords:
   - wallet
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 The Polygon ID Wallet app is a reference implementation built with the [Wallet SDK](/docs/wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-overview.md). It is a `Privacy by Default` wallet that helps protect a user's identity (and other metadata) by using zero-knowledge proofs. The wallet interacts with an Issuer to fetch credentials and with a Verifier for sharing ZK proofs based on these credentials.
 
 <div align="center">

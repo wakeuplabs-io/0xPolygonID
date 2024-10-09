@@ -13,10 +13,6 @@ keywords:
   - API
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 This article details the steps to set up your own Issuer Node API.
 
 :::caution

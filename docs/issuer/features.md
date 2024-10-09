@@ -12,8 +12,6 @@ keywords:
   - features
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## DID with Ethereum address
 
 This feature enables the creation of Ethereum-controlled identities. Ethereum accounts are used here to authenticate, prove statements and control identity.

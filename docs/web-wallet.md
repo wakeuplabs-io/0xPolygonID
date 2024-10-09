@@ -14,10 +14,6 @@ keywords:
   - embedded issuance
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 The Web Wallet is a web tool meticulously developed to streamline the verification process of credentials. Built for verifiers, it seamlessly integrates into your applications, enhancing the user experience by facilitating the request and verification of credentials within a unified and simplified workflow.
 
 ## Features

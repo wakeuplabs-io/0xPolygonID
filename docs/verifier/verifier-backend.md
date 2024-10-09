@@ -10,8 +10,6 @@ keywords:
   - verifier
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 The [Verifier Backend](https://github.com/0xPolygonID/verifier-backend) project is a JSON API that enables [Off Chain Verifications](verification-library/verification-api-guide.md) of zero knowledge proofs for verifiable credentials. Within the trust triangle, it serves as the verifier.
 
 It is built using libraries developed by the iden3 protocol team. Below, we'll explain how to install it using Docker and how it can be used to perform zero knowledge proofs.

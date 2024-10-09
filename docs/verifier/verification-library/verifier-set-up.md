@@ -12,10 +12,6 @@ keywords:
   - auth
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 Any application that wants to authenticate users based on their Privado ID Identity off-chain must set up a Verifier. A Verifier is made of a Server and a Client.
 
 The Server generates [the ZK Request](./request-api-guide.md) according to the requirements of the platform. There are two types of authentication:

@@ -14,10 +14,6 @@ keywords:
   - query
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 The <a href="https://docs.iden3.io/protocol/main-circuits/#credentialatomicquerysigv2" target="_blank">Atomic Query Signature V2 Circuit</a> and <a href="https://docs.iden3.io/protocol/main-circuits/#credentialatomicquerymtpv2" target="_blank">Atomic Query MTP V2 Circuit</a> circuits have been designed as generic circuits to do the ZK verification based on users' claims.
 
 The Query Language sits on top of these circuits to provide a simple way for developers to design customized authentication requirements for someone's credentials. As long as the user holds a credential of a specific type, the Verifier can design a query based on 6 operators, for example:

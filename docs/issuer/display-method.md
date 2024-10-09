@@ -12,8 +12,6 @@ keywords:
   - credential customization
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## Description
 
 To improve credential usage, a client needs to be able to customize the presentation of credentials in user wallets. A standard must be established that will guide the wallet in displaying credential cards. This will improve the user experience and allow issuers to present their own special presentation for credentials.

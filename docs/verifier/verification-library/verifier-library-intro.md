@@ -11,8 +11,6 @@ keywords:
   - verifier
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 # Introduction
 
 At its core, every off-chain interaction between a Verifier and a user's Wallet follows this workflow:

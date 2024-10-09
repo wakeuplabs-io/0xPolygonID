@@ -9,8 +9,6 @@ keywords:
   - wallet
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 A digital wallet is an application that can hold and manage users' `Credentials`. Based on the principles of Self-Sovereign Identity (SSI) and cryptography, a wallet helps its Holder share data with others without exposing any other sensitive private information. Only the wallet holder has the right to decide which information to share and what needs to remain private.
 
 Polygon ID offers some interesting ways to get started with leveraging a credential-focused wallet: [**the Wallet SDK**](#wallet-sdk) and [**the Polygon ID Wallet app**](#polygon-id-wallet-app).

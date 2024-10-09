@@ -12,8 +12,6 @@ keywords:
   - setup
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 # Reverse Hash Service Set up
 
 Repository: https://github.com/iden3/reverse-hash-service

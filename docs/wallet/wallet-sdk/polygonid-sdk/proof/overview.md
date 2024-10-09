@@ -13,8 +13,6 @@ keywords:
   - proof
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 # Proof Generation Overview
 
 The proof generation starts with the Wallet scanning the QR code on the Verifier website/app. It is worth mentioning that the proof generation process initiates on the Verifier side first with the Verifier generating a [Query Request](/docs/verifier/verification-library/request-api-guide.md#query-based-request).

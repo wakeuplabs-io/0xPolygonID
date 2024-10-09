@@ -12,8 +12,6 @@ keywords:
   - API
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 # Issuer Node API
 
 The Issuer Node API is ideal for users who for ** who want to create solutions based on Polygon ID functionalities and might be interested in having access to low level information** such as Merkle Trees.

@@ -10,8 +10,6 @@ keywords:
   - credential verification
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## Question
 
 Why am I encountering this error in the mobile app wallet while verifying a credential issued from my issuer node, and how can I resolve it?

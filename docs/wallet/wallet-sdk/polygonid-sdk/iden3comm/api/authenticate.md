@@ -12,8 +12,6 @@ keywords:
   - wallet sdk
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 An Integrator, in order to use the services of an Issuer, needs to authenticate itself with that Issuer. For this to happen, the Integrator needs to call the `authenticate()` method.
 
 The `authenticate()` method uses `Iden3MessageEntity`, `genesisDid`, `privateKey`, and optional `pushToken`, `profileNonce`, `nonRevocationProofs` and `challenge` as input parameters.

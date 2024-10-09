@@ -15,8 +15,6 @@ keywords:
   - Proof
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## Verifiable Presentations leveraging ZK Proofs
 
 The owner of a credential can prove to another party that a credential is true, without revealing any information beyond the validity of the credential itself using zkSNARK cryptography.

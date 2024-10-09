@@ -14,8 +14,6 @@ keywords:
   - refresh service customization
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## 1. Custom provider
 
 Extend customization by incorporating custom providers and integrating them into the refresh flow.

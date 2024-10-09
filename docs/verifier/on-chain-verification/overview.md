@@ -12,8 +12,6 @@ keywords:
   - on-chain
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 The on-chain verification workflow allows dApps to verify users' credentials inside a Smart Contract. Zero-Knowledge Proof cryptography enables this verification to happen privately, that means, without revealing any personal information of the user (prover).
 
 This flow is especially needed in cases where further on-chain logic needs to be implemented on successful verification such as:

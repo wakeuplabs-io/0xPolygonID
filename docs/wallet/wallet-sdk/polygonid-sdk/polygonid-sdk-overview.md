@@ -9,8 +9,6 @@ keywords:
   - wallet
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 The Polygon ID SDK (also **Wallet SDK**) is a Flutter-based set of tools that consists of libraries, code samples, APIs, and documentation that have been used to create the Polygon ID Wallet App. An Integrator can use this PolygonID SDK to either create their own apps (that provide similar functionality as that of the Polygon ID Wallet App) or integrate the functionalities seamlessly with their existing apps.
 
 ### Why Polygon ID Wallet SDK?

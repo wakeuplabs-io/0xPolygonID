@@ -14,8 +14,6 @@ keywords:
   - builder
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 In order to create new types of credentials, it is necessary to generate JSON schemas. These are the underlying files that define the credential attributes.
 
 [The Schema Builder](https://schema-builder.polygonid.me/) is a tool created to simplify the process of creating schemas by using an intuitive user interface and enabling everyone to check previously made schemas.

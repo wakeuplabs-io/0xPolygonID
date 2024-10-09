@@ -13,8 +13,6 @@ keywords:
   - features
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## Profile Selection
 
 Whenever an ID Holder creates a connection with an Issuer, the Holder can select what kind of profile is more appropriate for that interaction. In this way, aside from the **public profile** (the original DID), they can also have a different identifier, a **private profile**, for each connection they might have with an Issuer.

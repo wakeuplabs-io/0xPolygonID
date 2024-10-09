@@ -16,8 +16,6 @@ keywords:
   - browser
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## Demo for Polygon ID JS SDK Browser Wallet Extension
 
 Polygon ID has created a [sample browser wallet extension](https://github.com/0xPolygonID/extension-demo) based on our JS SDK that lets its user fetch credentials from an Issuer and generate proof for these credentials to be presented to a Verifier.

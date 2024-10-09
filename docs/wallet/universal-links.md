@@ -12,10 +12,6 @@ keywords:
   - auth
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 [Universal Links](https://developer.apple.com/ios/universal-links/) are a convenient way to create a single URL that works across all platforms. This URL can open content within an app on a mobile device or within a web browser, ensuring a seamless user experience. 
 
 In context with our protocol, a single URL can be configured to work with Web Wallet in case of a browser and Privado ID mobile app in case of a mobile phone.

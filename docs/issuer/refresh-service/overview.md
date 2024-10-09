@@ -13,8 +13,6 @@ keywords:
   - refresh credential
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## Description
 
 Sometimes, it's useful to have a way to renew the credentials you've been given. A refresh service lets you update your credentials yourself. This way, you always have the latest info from the issuer, like your account balance, game score, or other data that changes often.

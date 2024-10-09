@@ -13,9 +13,6 @@ keywords:
   - triangle of trust
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-
 Privado ID’s identity infrastructure facilitates trusted and secure relationships between apps and users, following the principles of self-sovereign identity and privacy by default. Privado ID enables organizations on one side to issue verifiable credentials about users, and organizations, on the other side, to verify those claims via a suite of tools created for each member of the SSI ecosystem.
 
 ## Why Privado ID?
