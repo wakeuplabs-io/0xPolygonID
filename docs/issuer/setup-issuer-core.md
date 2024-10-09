@@ -27,7 +27,7 @@ Below is the installation guide for Issuer Node v2.
 
 For an advance configuration of the Issuer Node (RHS, Ethereum Identities and more), visit the [Advanced Issuer Node configuration](issuer-configuration.md#Advanced-Issuer-Node-configuration) guide.
 
-**You have to first [clone the repository](https://github.com/0xPolygonID/issuer-node).**
+**You have to first [clone the repository](https://github.com/wakeuplabs-io/opid-issuer-node).**
 
 ## Docker Mode Guide
 
@@ -64,7 +64,7 @@ cp .env-issuer.sample .env-issuer
 
 3. Key Management System (KMS) Setup
 
-  Please Look at the [KMS configuration](https://github.com/0xPolygonID/issuer-node/blob/main/.env-issuer.sample#L21) in the sample file and file your .env-issuer config file accordingly.
+  Please Look at the [KMS configuration](https://github.com/wakeuplabs-io/opid-issuer-node/blob/main/.env-issuer.sample#L21) in the sample file and file your .env-issuer config file accordingly.
 
   The Issuer Node allows you to choose between two key management systems for managing private keys: local storage (default) or [Vault](https://www.vaultproject.io/). It is recommended to use Vault for production environments for enhanced security.
 
@@ -105,7 +105,7 @@ cp .env-issuer.sample .env-issuer
 
 3. Import Ethereum Private Key
 
-  Import your Ethereum private key into the KMS provider you have configured. The associated account must be funded for state transitions. For Amoy network you can request some testing Matic [here](https://www.alchemy.com/faucets/polygon-amoy).
+  Import your Ethereum private key into the KMS provider you have configured. The associated account must be funded for state transitions. For Amoy network you can request some testing Matic [here](https://www.alchemy.com/faucets/optimism-sepolia).
 
   ```bash
   make private_key=<YOUR_WALLET_PRIVATE_KEY> import-private-key-to-kms
@@ -132,10 +132,7 @@ cp .env-issuer.sample .env-issuer
 
 [How to Set Up Issuer Node UI Guide](setup-issuer-ui.md)
 
-[Migrating from Issuer Node v1 to v2 Guide](migration-v1-v2.md)
-
-
-
 [Advanced Issuer Node Configuration](issuer-configuration.md)
 
 [Quick Start Demo](../quick-start-demo.md)
+

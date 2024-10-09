@@ -25,7 +25,7 @@ keywords:
 - [JSON](https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/non-zero-balance.json)
 - [JSONLD](https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/non-zero-balance.jsonld)
 
-Generate custom schemas through the [schema builder](https://schema-builder.polygonid.me/builder). Additional details can be found in the [schema builder documentation](/docs/issuer/schema-builder/).
+Generate custom schemas through the [schema builder](https://tools.privado.id/builder). Additional details can be found in the [schema builder documentation](/docs/issuer/schema-builder/).
 
 ## Setup with custom data provider
 
@@ -192,7 +192,7 @@ go run .
     </div>
   </details>
 
-3. Visit [https://verifier-demo.polygonid.me/](https://verifier-demo.polygonid.me/) to create a proof request. This is necessary because [https://schema-builder.polygonid.me/query-builder](https://schema-builder.polygonid.me/query-builder) does not currently support the `xsd:positiveInteger` type:
+3. Visit [https://verifier-demo.polygonid.me/](https://verifier-demo.polygonid.me/) to create a proof request. This is necessary because [https://tools.privado.id/query-builder](https://tools.privado.id/query-builder) does not currently support the `xsd:positiveInteger` type:
 
   <details>
     <summary>Proof request</summary>

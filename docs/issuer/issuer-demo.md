@@ -11,7 +11,7 @@ keywords:
   - demo
 ---
 
-The [Demo Issuer](https://issuer-demo.polygonid.me/) is a playground that allows you to create credentials without having to set up an Issuer Node and fetch it inside your wallet.
+The [Demo Issuer](TODO:) is a playground that allows you to create credentials without having to set up an Issuer Node and fetch it inside your wallet.
 
 ## Prerequisites
 

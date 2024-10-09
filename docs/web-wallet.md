@@ -77,12 +77,12 @@ For credentials that do not support embedded issuance directly through the Web W
 
 ### Step 1 - Choosing Your Credential Schema
 
-Select the credential schema that aligns with your requirements from our [Schema Explorer](https://schema-builder.polygonid.me/) or any other source.
-Standardized schemas, such as KYC, are available. Alternatively, you can create a custom schema using our [Schema Builder](https://schema-builder.polygonid.me/builder).
+Select the credential schema that aligns with your requirements from our [Schema Explorer](https://tools.privado.id/) or any other source.
+Standardized schemas, such as KYC, are available. Alternatively, you can create a custom schema using our [Schema Builder](https://tools.privado.id/builder).
 
 ### Step 2 - Creating the Query
 
-Define what information you need from your users and build a query using the [Query Builder](https://schema-builder.polygonid.me/query-builder).
+Define what information you need from your users and build a query using the [Query Builder](https://tools.privado.id/query-builder).
 Once you create the query, you can select the network and test your query.
 Copy the generated code snippet of the query for later integration into your verifier setup.
 

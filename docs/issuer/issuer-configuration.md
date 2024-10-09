@@ -11,9 +11,6 @@ keywords:
   - verifiable credentials
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Advanced Issuer Node configuration
 
 This guide will show you how to configure your Issuer Node.
@@ -29,16 +26,18 @@ The revocation status is a core part of the credential, as it is the verifier's 
 - `RHS On Chain`: This method can be considered as completely decentralized since the RHS is on chain, therefore the user or verifier will check the status of a credential via this decentralized on chain service without depending on a centralized server. This is the **desirable option**.
 
 ## Setting up networks and chains
+
 The first step in setting up the issuer node is to define the networks it will support and for which it will be able to issue credentials.
 The github repository provides an example file called `resolvers_setting_sample.yaml` this file can be used as a reference to configure the issuer node networks.
 You must create a file called resolvers_settings.yaml which must be in the root directory.
 
-Let's see an example of how to configure the issuer node for the Polygon amoy network.
+Let's see an example of how to configure the issuer node for the Optimism sepolia network.
+
 ```yaml
-polygon:
-  amoy:
+optimism:
+  sepolia:
     contractAddress: 0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124 # State contract address
-    networkURL: https://polygon-amoy.g.alchemy.com/v2/x # Polygon amoy RPC
+    networkURL: https://optimism-sepolia.g.alchemy.com/v2/x # Optimism sepolia RPC
     defaultGasLimit: 600000
     confirmationTimeout: 10s
     confirmationBlockCount: 5
@@ -51,11 +50,12 @@ polygon:
     gasLess: true
     rhsSettings:
       mode: None # None, OffChain, OnChain, All
-      contractAddress: 0x16A1ae4c460C0a42f0a87e69c526c61599B28BC9 # RHS contract address
-      rhsUrl: https://rhs-staging.polygonid.me # RHS URL (setup this if you are using OffChain or All mode)
-      chainID: 80002 # Polygon amoy chain ID
+      contractAddress: TODO: # RHS contract address
+      rhsUrl: TODO: # RHS URL (setup this if you are using OffChain or All mode)
+      chainID: TODO: # Polygon amoy chain ID
       publishingKey: pbkey # Publishing key path. Left this value as this.
 ```
+
 Notes about **rhsSettings** mode:
 Types:
 * Iden3commRevocationStatusV1.0: Centralized mode
@@ -70,9 +70,6 @@ then:
 * All - All the statuses.
 
 
-
-
-
 ## State Contract
 
 The State Contract stores the Global Identity State Tree. The GIST State represents a snapshot of the states of all the identities operating in the system. The design of the State Contract allows identities to authenticate themselves using Identity Profiles.
@@ -85,25 +82,18 @@ Learn more about state contract [here](https://docs.iden3.io/contracts/state/).
 
 :::
 
-<Tabs>
-<TabItem value="Polygon Amoy">
-
 ```yaml
-polygon:
-  amoy:
-    contractAddress: 0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124
-```
-</TabItem>
+# optimism sepolia
+optimism:
+  sepolia:
+    contractAddress: TODO:
 
-<TabItem value="Polygon Main">
-
-```yaml
-polygon:
+# optimism main
+optimism:
   main:
-    contractAddress: 0x624ce98D2d27b20b8f8d521723Df8fC4db71D79D
+    contractAddress: TODO:
 ```
-</TabItem>
-</Tabs>
+
 
 ### Changing the API Authentication Configuration
 To change the API authentication configuration, you need to modify the `.env-issuer` file. 

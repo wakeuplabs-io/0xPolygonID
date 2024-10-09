@@ -5,7 +5,7 @@ sidebar_label: Display method
 description: Display method
 keywords:
   - docs
-  - polygon id
+  - optimism id
   - issuer node
   - claim
   - verifiable credentials
@@ -26,7 +26,7 @@ Restrictions:
 2. Maximum length for `title` is 60 characters.
 3. Maximum length for `description` is 120 characters.
 
-To configure the credential representation on the PolygonID wallet, follow the steps below:
+To configure the credential representation on the Optimism ID wallet, follow the steps below:
 
 1. Upload a background and logo for the credential card to IPFS or an HTTP(s) host.
 1. Create a file named metadata.json with the following content:
@@ -34,14 +34,14 @@ To configure the credential representation on the PolygonID wallet, follow the s
    {
      "title": "KYC Country of Residence",
      "description": "Know Your Customer Verification",
-     "issuerName": "PolygonID Issuer",
+     "issuerName": "OPID Issuer",
      "titleTextColor": "#f2743a",
      "descriptionTextColor": "#f2743a",
      "issuerTextColor": "#f2743a",
      "backgroundImageUrl": "ipfs://QmecKDMotkM8a6vxw35CB7iHfToBJnzJrPcmA3gHit9jt9",
      "logo": {
        "uri": "ipfs://QmWkSgmHbKRfhndWqHwVgfVpZSrWNiWZMTHb6k5KxY8ySc",
-       "alt": "Logo PolygonID Issuer"
+       "alt": "Logo OPID Issuer"
      }
    }
    ```

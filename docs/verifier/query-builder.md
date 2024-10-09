@@ -21,7 +21,7 @@ keywords:
   - nullifier
 ---
 
-The Query Builder, available [here](https://schema-builder.polygonid.me/query-builder), is an intuitive, web-based tool designed to simplify the creation of verification queries. It's particularly useful for verifiers looking to establish specific criteria for identity verification, such as organizational membership or age requirements. By leveraging Polygon ID, the Query Builder offers a secure and efficient method for users to authenticate identities based on these criteria.
+The Query Builder, available [here](https://tools.privado.id/query-builder), is an intuitive, web-based tool designed to simplify the creation of verification queries. It's particularly useful for verifiers looking to establish specific criteria for identity verification, such as organizational membership or age requirements. By leveraging Polygon ID, the Query Builder offers a secure and efficient method for users to authenticate identities based on these criteria.
 
 ## Features
 

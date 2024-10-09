@@ -86,7 +86,7 @@ To learn how to set up your own issuer environment by deploying an issuer node, 
 
 :::info
 
-The schema used in this demo was built using the Privado ID Schema Builder and is available on [<ins>the Privado ID Schema Explorer</ins>](https://schema-builder.polygonid.me/schemas/1fa99457-b2ae-4884-ae12-d658bd6abf69). Learn more about creating new schemas on [<ins>the Schema Builder UI guide</ins>](https://devs.polygonid.com/docs/issuer/schema-builder/).
+The schema used in this demo was built using the Privado ID Schema Builder and is available on [<ins>the Privado ID Schema Explorer</ins>](https://tools.privado.id/schemas/1fa99457-b2ae-4884-ae12-d658bd6abf69). Learn more about creating new schemas on [<ins>the Schema Builder UI guide</ins>](https://devs.polygonid.com/docs/issuer/schema-builder/).
 
 :::
 
@@ -160,7 +160,7 @@ Here comes the third role in this tutorial: the verifier. This could be represen
 
 Here are the steps to verify the credential:
 
-1. Visit the [Query builder website](https://schema-builder.polygonid.me/query-builder/). The [Query Builder](/docs/verifier/query-builder/) is an awesome tool designed to simplify the creation of verification queries.
+1. Visit the [Query builder website](https://tools.privado.id/query-builder/). The [Query Builder](/docs/verifier/query-builder/) is an awesome tool designed to simplify the creation of verification queries.
 
 <div align="center">
     <img width="600" src={useBaseUrl("img/quick-start-demo/verifier-home.png")}></img>

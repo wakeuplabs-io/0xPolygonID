@@ -5,7 +5,7 @@ sidebar_label: Schema Builder UI
 description: Create schemas intuitively by using the Schema Builder UI.
 keywords:
   - docs
-  - polygon id
+  - optimism id
   - issuer node
   - claim
   - verifiable credentials
@@ -16,17 +16,11 @@ keywords:
 
 In order to create new types of credentials, it is necessary to generate JSON schemas. These are the underlying files that define the credential attributes.
 
-[The Schema Builder](https://schema-builder.polygonid.me/) is a tool created to simplify the process of creating schemas by using an intuitive user interface and enabling everyone to check previously made schemas.
-
-Learn more about the Schema Explorer in the video below:
-
-<div align="center" style={{margin: 40}}>
-<iframe src="https://www.youtube.com/embed/L2UYsMc3GtE?si=YPmEv-HWf00HwruV" width="100%" height="450" allowfullscreen></iframe>
-</div>
+[The Schema Builder](https://tools.privado.id/) is a tool created to simplify the process of creating schemas by using an intuitive user interface and enabling everyone to check previously made schemas.
 
 ## Schema Explorer
 
-[The Schema Builder landing page](https://schema-builder.polygonid.me/) presents a Schema Explorer, where you can find all previously created schemas and drill down your search for specific kinds of schemas. Not all schemas need to be created from scratch.
+[The Schema Builder landing page](https://tools.privado.id/) presents a Schema Explorer, where you can find all previously created schemas and drill down your search for specific kinds of schemas. Not all schemas need to be created from scratch.
 
 <div align="center">
 <img src= {useBaseUrl("img/schema-explorer.png")} align="center" />
@@ -58,7 +52,7 @@ The forked schema also shows its number of forks:
 
 ## Schema Builder
 
-As previously stated, [the Schema Builder](https://schema-builder.polygonid.me/builder) is the easiest way to generate new types of credentials as it allows users to define the attributes, data types, and constraints for their schemas. The tool will then generate the necessary JSON-LD files and other artifacts required to implement the schema.
+As previously stated, [the Schema Builder](https://tools.privado.id/builder) is the easiest way to generate new types of credentials as it allows users to define the attributes, data types, and constraints for their schemas. The tool will then generate the necessary JSON-LD files and other artifacts required to implement the schema.
 
 <div align="center">
 <img src= {useBaseUrl("img/schema-builder.png")} align="center" />
@@ -76,12 +70,6 @@ If you already have access to a file containing a JSON schema or a URL where tha
 </div>
 
 :::
-
-Learn more about the Schema Builder in the video below:
-
-<div align="center" style={{margin: 40}}>
-<iframe src="https://www.youtube.com/embed/IHFzM0F-KAI?si=42ob9hz4gG6tpEHQ" width="100%" height="450" allowfullscreen></iframe>
-</div>
 
 ### Schema definition
 
@@ -108,12 +96,6 @@ You can add multiple attributes to your schema. All of them need to have the fol
 - Title: a more human-readable title for the attribute without restrictions for special characters or space.
 - Data type: the kind of data the schema will support, such as integer, string, boolean etc.
 - Description: a short human-readable explanation of the attribute.
-
-Learn about the advanced features of the Schema Builder in the video below:
-
-<div align="center" style={{margin: 40}}>
-<iframe src="https://www.youtube.com/embed/lW2atrdpFaU?si=0BlqzS6kzXNK4nw3" width="100%" height="450" allowfullscreen></iframe>
-</div>
 
 #### Publish on IPFS or Download JSON file
 

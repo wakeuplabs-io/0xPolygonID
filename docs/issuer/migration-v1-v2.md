@@ -37,7 +37,7 @@ If you were using Docker to run Issuer Node and wish to migrate to v2, please fo
 #### 1. **Backup Your Database**
 
 ```bash
-docker exec -i issuer-postgres-1 /bin/bash -c "PGPASSWORD=polygonid pg_dump --username polygonid platformid" > ./dump.sql
+docker exec -i issuer-postgres-1 /bin/bash -c "PGPASSWORD=password pg_dump --username username dbname" > ./dump.sql
 ```
 
 #### 2. **Backup your vault**
@@ -65,28 +65,27 @@ git pull
 
 #### 5. **Update Configuration**
 
-Modify your .env-issuer file to include or update the following variables. Please look at the latest env-issuer.sample file [here](https://github.com/0xPolygonID/issuer-node/blob/1d57318e338f0418572d8e41ae54e9b3418eac9b/.env-issuer.sample).
+Modify your .env-issuer file to include or update the following variables. Please look at the latest env-issuer.sample file [here](https://github.com/wakeuplabs-io/opid-issuer-node/blob/main/.env-issuer.sample).
 
 ```bash
 ISSUER_SERVER_URL=<PUBLICLY_ACCESSIBLE_URL_POINTING_TO_ISSUER_SERVER_PORT>
 ISSUER_API_AUTH_USER=user-issuer
 ISSUER_API_AUTH_PASSWORD=password-issuer
 ```
+
 Please refer the point 3 [here](./setup-issuer-core.md/#issuer-node-api-setup-basic-configuration-building-docker-images) to configure the variables related to storing your keys, depending on the key repository you choose (local storage or Vault).
-
-Create a file named resolvers_settings.yaml in the project's root directory. You can copy the resolvers_settings_sample.yaml file from [here](https://github.com/0xPolygonID/issuer-node/blob/main/resolvers_settings_sample.yaml) as a template. For information on configuration regarding setting up chains and RPCs, see [Setting up networks and chains](issuer-configuration.md#Advanced-Issuer-Node-configuration) in Advanced Configuration guide.
-
 
 #### 6. Restart the Infrastructure Layer
 
 ```bash 
 make up
 ```
+
 #### 7. Import the Database Backup
 
 
 ```bash
-docker exec -i issuer-postgres-1 /bin/bash -c "PGPASSWORD=polygonid psql --username polygonid platformid" < ./dump.sql
+docker exec -i issuer-postgres-1 /bin/bash -c "PGPASSWORD=password psql --username username dbname" < ./dump.sql
 ```
 
 #### 8. Import Keys into Local Storage or a New Vault
@@ -103,7 +102,9 @@ Since you are running a new vault instance, obtain the new vault token by runnin
 ``` bash 
 docker logs issuer-vault-1
 ```
+
 Or
+
 ```bash
 make print-vault-token`
 ```
