@@ -5,7 +5,7 @@ sidebar_label: Identity Wallet
 description: Identity Wallet components and capabilities.
 keywords:
   - docs
-  - polygon id
+  - optimism id
   - holder
   - issuer
   - verifier
@@ -76,8 +76,6 @@ To know more about Iden3 core elements (Baby Jubjub Key, Credentials, and Identi
 
 :::
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.createidentity#identitywalletcreateidentity-method" target="_blank">API Reference</a>.
-
 ## Create Profiles using createProfile()
 
 This method creates profiles based on the genesis identifier. To keep the user's identity hidden from a Verifier, we can generate different profiles from his/her existing identifier. Therefore, a user has the option to select a particular profile for a particular Verifier so that his real identity is not revealed.
@@ -93,8 +91,6 @@ where `did` is the DID from which a profile is generated.
 `verifier` is the verifier identity/alias in the string format.
 
 This method returns a profile ID.
-
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.createprofile#identitywalletcreateprofile-method" target="_blank">API Reference</a>.
 
 Other methods to work with profiles:
 
@@ -134,8 +130,6 @@ where `keyType` is the type of key supported by the Key Management System.
 
 This method returns a `Promise<KmsKeyId>` which generates the key of the type mentioned in `keyType` parameter.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.generatekey#identitywalletgeneratekey-method" target="_blank">API Reference</a>.
-
 ## Issue Credentials using issueCredential() method
 
 This method lets an Issuer grant a credential to a user as requested by the user.
@@ -150,8 +144,6 @@ where `issuerDID` is the identifier of the Issuer in the `did` format we describ
 
 This method returns a core claim which is then added to the Merkle tree and this claim is then transformed into a Verifiable Credential based on the W3C standards and issued to the user. The core claim is signed by the Issuer and a BabyJubjub [Signature Proof](https://docs.iden3.io/getting-started/signature-claim/signature/) is also added to the credential.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.issuecredential#identitywalletissuecredential-method" target="_blank">API Reference</a>.
-
 ## Create a Tree Model using getDIDTreeModel() method
 
 This method creates a tree model for a `did`; the model consists of a Claims tree, a Revocation tree, a Roots of Root tree, and the identity hash of the state created from these trees.
@@ -161,8 +153,6 @@ getDIDTreeModel(did: DID): Promise<TreesModel>;
 ```
 
 This method returns a `Promise<TreesModel>` which returns the three Merkle trees from the database storage.
-
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.getdidtreemodel#identitywalletgetdidtreemodel-method" target="_blank">API Reference</a>.
 
 ## Generate Merkle Tree proof using generateCredentialMtp() Method
 
@@ -190,8 +180,6 @@ where `did` is the DID of the Issuer that issued the credential to the user.
 
 This method returns `MerkletTreeProof` along with the `TreeState` for which the proof is generated.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.generatecredentialmtp#identitywalletgeneratecredentialmtp-method" target="_blank">API Reference</a>.
-
 ## Generate Non-Revocation Merkle Tree Proof using generateNonRevocationMtp() method
 
 This method generates a Merkle Tree Proof for the inclusion or non-inclusion of the revocation nonce of a credential in the Revocation Tree.
@@ -217,8 +205,6 @@ To know more about the Revocation of a credential, read [<ins>here</ins>](https:
 
 :::
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.generatenonrevocationmtp#identitywalletgeneratenonrevocationmtp-method" target="_blank">API Reference</a>.
-
 ## Sign Credential Using Sign() Method
 
 This method signs a payload of an arbitrary size with an Auth BJJ Credential, which contains a public key and a reference to the Key Management Store (where we store and fetch a private key for the credential).
@@ -232,8 +218,6 @@ where `payload` is any arbitrary string or an unsigned integer array.
 `credential` is Auth BJJ Credential in the W3C format.
 
 This method returns the signature object.
-
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.sign#identitywalletsign-method" target="_blank">API Reference</a>.
 
 ## Sign a Challenge using signChallenge() method
 
@@ -249,8 +233,6 @@ where `payload` is a big number (bigint). A big number is used in cryptography t
 
 This method returns the signature object.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.signchallenge#identitywalletsignchallenge-method" target="_blank">API Reference</a>.
-
 ## Revoke Credential using revokeCredential() method
 
 This method generates a Revocation Nonce for a credential that we need to revoke (or render invalid due to its expiry, loss, or any other reason).
@@ -264,8 +246,6 @@ where `issuerDID` is the Issuer's identifier.
 `credential` is the W3C Credential that needs to be revoked.
 
 This method returns the Revocation Nonce of the credential.
-
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.revokecredential#identitywalletrevokecredential-method" target="_blank">API Reference</a>.
 
 ## Generate Iden3 Sparse Merkle Tree Proof using generateIden3SparseMerkleTreeProof() Method
 
@@ -295,8 +275,6 @@ where `issuerDID` is the Issuer's identifier.
 
 This method returns a list of credentials along with a Sparse Merkle Tree Proof.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.generateiden3sparsemerkletreeproof#identitywalletgenerateiden3sparsemerkletreeproof-method" target="_blank">API Reference</a>.
-
 ## Publish State to Reverse Hash Service with publishStateToRHS() Method
 
 If we are using a browser, we need to fetch the revocation status via rhsURL (Reverse Hash Service URL) by pushing the state update to this URL.
@@ -313,8 +291,6 @@ where `issuerDID` is the `did` of the Issuer.
 
 `revokedNonces` are the nonces of the revoked credentials.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.publishstatetorhs#identitywalletpublishstatetorhs-method" target="_blank">API Reference</a>.
-
 ## Get Core Claim Representation with getCoreClaimFromCredential() Method
 
 This method extracts the core claim from either the Signature proof or the Merkle Tree Proof. If we have both types of proofs for the credential, this method extracts the core representation from the Merkle Tree Proof.
@@ -327,4 +303,3 @@ where `credential` is the Verifiable Credential in the W3C format that is used t
 
 The method returns the core claim representation of the credential.
 
-Click here for the <a href="https://0xpolygonid.github.io/js-sdk-tutorials/docs/api/js-sdk.identitywallet.getcoreclaimfromcredential#identitywalletgetcoreclaimfromcredential-method" target="_blank">API Reference</a>.

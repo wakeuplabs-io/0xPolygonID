@@ -1,3 +1,4 @@
+<!-- TODO: -->
 ---
 id: js-sdk-browser-wallet-demo
 title: JS SDK Browser Wallet Demo
@@ -5,7 +6,7 @@ sidebar_label: Browser Wallet Demo
 description: Check out a sample of a JS SDK browser application implementation.
 keywords:
   - docs
-  - polygon id
+  - optimism id
   - holder
   - issuer
   - verifier
