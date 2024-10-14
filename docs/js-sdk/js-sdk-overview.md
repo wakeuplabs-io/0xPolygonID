@@ -37,13 +37,13 @@ The Optimism ID JS SDK has been developed to provide the following functionaliti
 
 The following components form the inherent part of the JS SDK. In the upcoming tutorials, we shall read more about the implementation of these components in JS SDK. To know what each of these components stands for, go through their links:
 
-- [Identity Wallet](/docs/category/identity)
+- Identity Wallet
 
-- [Credential Wallet](/docs/category/credential)
+- Credential Wallet
 
-- [Iden3comm](/docs/wallet/wallet-sdk/optimismid-sdk/iden3comm/overview.md)
+- Iden3comm
 
-- [Proof](/docs/wallet/wallet-sdk/optimismid-sdk/proof/overview.md)
+- Proof
 
 ## Prerequisites
 
@@ -64,7 +64,7 @@ You can install project dependencies using either one of the following ways:
 - Using **npm**:
 
 ```bash
-npm install @wakeuplabs/js-sdk
+npm install @wakeuplabs/opid-sdk
 ```
 
 - For browser-based applications, you can use the following script tag, adding import to your **index.html** file after `npm run build`:
@@ -123,5 +123,12 @@ On the Optimism ID JS SDK, you can build the following functionalities:
 - The JS SDK also provides a revocation feature for credentials and proof generation
 
 <br/>
+
+## Disclosure
+
+`@wakeuplabs/opid-sdk` is a fork from `@0xpolygonid/js-sdk` specifically tailored to work for optimism with the `opid` method.
+
+You can find more documentation on [privado id documentation](https://github.com/0xPolygonID/docs/blob/51eb1ee6dbab65b15fe1defc624d46cca5db943d/docs/js-sdk/js-sdk-overview.md) methods and procedures should remain the same with the exception that `opid-sdk` supports optimism out of the box
+
 
 

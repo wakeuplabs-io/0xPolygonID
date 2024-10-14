@@ -378,7 +378,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
 
 10. Generate Proof for `ZeroKnowledgeProofRequest`. It uses the **AtomicQuerySignV2** as the `CircuitId`.
 
-- Processe Proof Request:
+- Process Proof Request:
 
   ```typescript
   const proofReq: ZeroKnowledgeProofRequest = {
