@@ -41,7 +41,7 @@ There are some different ways one can perform issuer-related actions, that is, m
 To operate, an Issuer must run an Issuer Node, which is a self-hosted Node that exposes all the functionalities necessary to run an issuer.
 
 <div align="center">
-<img src="../../static/img/issuer-intro.png" align="center" />
+<img src="../../assets/issuer-intro.png" align="center" />
 </div>
 <br></br>
 
@@ -51,7 +51,7 @@ There are basically two ways the Issuer Node can be implemented:
 - Issuer Node UI
 
 <div align="center">
-<img src="../../static/img/whole-infra.png" align="center" />
+<img src="../../assets/whole-infra.png" align="center" />
 </div>
 
 ### Issuer Node Core API
@@ -59,7 +59,7 @@ There are basically two ways the Issuer Node can be implemented:
 The Issuer Node Core API is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Optimism ID functionalities and might be interested in having access to low-level information** such as Merkle Trees.
 
 <div align="center">
-<img src="../../static/img/3001.png" align="center" />
+<img src="../../assets/3001.png" align="center" />
 </div>
 
 ### Issuer Node UI
@@ -69,13 +69,13 @@ The Issuer Node UI provides the full experience of having an Issuer Node with al
 Issuer Node User Interface with a more visual experience:
 
 <div align="center">
-<img src="../../static/img/8088.png" align="center" />
+<img src="../../assets/8088.png" align="center" />
 </div>
 
 Issuer Node API UI with Managing Schemas, Credentials and other functionalities:
 
 <div align="center">
-<img src="../../static/img/3002.png" align="center" />
+<img src="../../assets/3002.png" align="center" />
 </div>
 
 ## Disclosure

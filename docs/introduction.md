@@ -46,7 +46,7 @@ The simplest example of a Verifier is a bar that wants to verify if a client is 
 A core concept here is the _trust_ that must exist between a Verifier and an Issuer: the fact that the information contained inside a VC is cryptographically verifiable doesn't guarantee it's true. The Issuer must be a trusted and reputable party so that Verifier can consume the VCs originated by that Issuer.
 
 <div align="center">
-<img src='../static/img/triangle-of-trust-simple.png' align="center" width="700"/>
+<img src='../assets/triangle-of-trust-simple.png' align="center" width="700"/>
 </div>
 
 ## Role of a Wallet

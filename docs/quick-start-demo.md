@@ -41,17 +41,17 @@ In this case we used the [Issuer Node](https://github.com/wakeuplabs-io/opid-iss
 1. Connect your wallet. For this demo the website creates a wallet on the spot and keeps the credentials stored locally
 
 <div align="center">
-<img src='../static/img/demo/connect-wallet.png' align="center" width="700"/>
+<img src='../assets/demo/connect-wallet.png' align="center" width="700"/>
 </div>
 
 2. Claim your credential
 
 <div align="center">
-<img src='../static/img/demo/claim-credential.png' align="center" width="700"/>
+<img src='../assets/demo/claim-credential.png' align="center" width="700"/>
 </div>
 
 3. Request the airdrop
 
 <div align="center">
-<img src='../static/img/demo/claim-airdrop.png' align="center" width="700"/>
+<img src='../assets/demo/claim-airdrop.png' align="center" width="700"/>
 </div>
