@@ -42,7 +42,7 @@ The simplest example of a Verifier is a bar that wants to verify if a client is 
 A core concept here is the _trust_ that must exist between a Verifier and an Issuer: the fact that the information contained inside a VC is cryptographically verifiable doesn't guarantee it's true. The Issuer must be a trusted and reputable party so that Verifier can consume the VCs originated by that Issuer.
 
 <div align="center">
-<img src= {useBaseUrl('/img/triangle-of-trust-simple.png')} align="center" width="700"/>
+<img src='../static/img/triangle-of-trust-simple.png' align="center" width="700"/>
 </div>
 
 ## Role of a Wallet
@@ -64,19 +64,3 @@ A [Wallet](./wallet/wallet-overview.md) plays a crucial role in the seamless exc
 
 <a href="https://iden3.io/" target="_blank">Iden3</a> is the open-source protocol at the basis of Privado ID. The protocol defines on a low-level how the parties listed above communicate and interact with each other. Privado ID is an abstraction layer to enable developers to build applications leveraging the Iden3 protocol.
 
-## Further Resources On Privado ID
-
-- [Privado ID Youtube Playlists](https://www.youtube.com/@PrivadoID/playlists?view=50&sort=dd&shelf_id=5)
-- [Polygon ID DID Method Overview at SSI Meetup (April 2023)](https://ssimeetup.org/polygonid-zero-knowledge-identity-web2-web3-otto-mora-webinar-62/)
-- [Adding Verifiable Credentials to your crypto wallet - Eth CC July 2023](https://www.youtube.com/watch?v=5fv8e-k8t98)
-- [The Future of Identity is Self-Sovereign: Build a dapp with Polygon ID - ETH Global - November 2022](https://youtu.be/utpazrLrSbY)
-- [A Deep Dive into Polygon ID - ETH Vietnam - November 2022](https://youtu.be/fQ9DiGUnvwA)
-- [Identity Layer for Web3 - Paris - July 2022](https://youtu.be/bmRvQNmxFkM)
-
-## Further Resources On Verifiable Credentials
-
-- [Verifiable Credentials: The Ultimate Guide](https://www.dock.io/post/verifiable-credentials)
-- [Understanding and Using Verifiable Credentials](https://www.youtube.com/watch?v=BxLSSH_EHjo)
-- [Polygon ID DID Method Specification](https://github.com/0xPolygonID/did-polygonid)
-
----
