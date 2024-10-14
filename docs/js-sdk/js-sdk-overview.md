@@ -86,7 +86,7 @@ npm install @wakeuplabs/opid-sdk
     KMS,
     core,
     CredentialStatusType,
-  } = OptimismIdSdk;
+  } = OpIdSdk;
 </script>
 ```
 
