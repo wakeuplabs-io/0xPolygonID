@@ -1,4 +1,3 @@
-<!-- TODO: -->
 ---
 id: js-sdk-example
 title: JS SDK Example
@@ -27,7 +26,7 @@ We have created a [JS SDK Example repository](https://github.com/wakeuplabs-io/o
 1. Download the latest circuits from the following curl command:
 
    ```bash
-   curl https://opid-circuits.s3.amazonaws.com/latest.zip--output latest.zip
+   curl https://opid-circuits.s3.amazonaws.com/latest.zip --output latest.zip
    ```
 
    where s3 is a bucket that has been created for storing the circuits' data in one of the Amazon Simple Storage Service (Amazon S3) for specific regions across the globe.
@@ -124,13 +123,13 @@ For example:
 const seedPhrase: Uint8Array = byteEncoder.encode("seedseedseedseedseedseedseedseed");
 
 const { did, credential } = await wallet.createIdentity({
-  method: DidMethod.Iden3,
-  blockchain: Blockchain.Polygon,
-  networkId: NetworkId.Amoy,
+  method: "opid",
+  blockchain: "optimism",
+  networkId: "sepolia",
   seed: seedPhrase,
   revocationOpts: {
     type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-    id: "https://rhs-staging.polygonid.me",
+    id: "https://rhs-staging....",
   },
 });
 ```
@@ -189,7 +188,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
      seed: seedPhraseIssuer,
      revocationOpts: {
        type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-       id: "https://rhs-staging.polygonid.me",
+       id: "https://rhs-staging....",
      },
    });
    ```
@@ -205,7 +204,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
      seed: seedPhraseUser,
      revocationOpts: {
        type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-       id: "https://rhs-staging.polygonid.me",
+       id: "https://rhs-staging....",
      },
    });
    ```
@@ -225,7 +224,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
      expiration: 12345678888,
      revocationOpts: {
        type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-       id: "https://rhs-staging.polygonid.me",
+       id: "https://rhs-staging....",
      },
    };
    const issuerCred = await wallet.issueCredential(issuerDID, claimReq);
@@ -256,7 +255,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
     "type": "JsonSchemaValidator2018"
   },
   "credentialStatus": {
-    "id": "https://rhs-staging.polygonid.me",
+    "id": "https://rhs-staging....",
     "revocationNonce": 4303,
     "type": "Iden3ReverseSparseMerkleTreeProof"
   },
@@ -277,7 +276,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
           "siblings": []
         },
         "credentialStatus": {
-          "id": "https://rhs-staging.polygonid.me",
+          "id": "https://rhs-staging....",
           "revocationNonce": 0,
           "type": "Iden3ReverseSparseMerkleTreeProof"
         }
