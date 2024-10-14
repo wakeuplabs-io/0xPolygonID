@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Introduction to Privado ID (prev. Polygon ID)
+title: Introduction to Privado ID / Optimism ID
 sidebar_label: Introduction
 description: Privado ID main concepts.
 keywords:
@@ -13,14 +13,15 @@ keywords:
   - triangle of trust
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-
 Privado ID’s identity infrastructure facilitates trusted and secure relationships between apps and users, following the principles of self-sovereign identity and privacy by default. Privado ID enables organizations on one side to issue verifiable credentials about users, and organizations, on the other side, to verify those claims via a suite of tools created for each member of the SSI ecosystem.
 
 ## Why Privado ID?
 
 Privado ID, with the help of zero-knowledge proofs, lets users prove their identity without the need of exposing their private information. This ensures both the **Freedom of Expression** and **Privacy by Default** (user's identities are secured by zero-knowledge cryptography).
+
+## Why Optimism ID?
+
+Optimism ID is the result of a [Mission Request](https://gov.optimism.io/t/ready-to-vote-zk-toolkit-for-zk-application-developers/7444) from the optimism community. The goal of this mission is to provide applications on Optimism with a toolkit that enables trusted, secure relationships between apps and users, emphasizing self-sovereign identity and privacy. While Privado ID is technically chain-agnostic, it was primarily designed for Polygon and required some adjustments to function on Optimism. Optimism ID is a fork of Privado ID, specifically tailored to simplify the implementation of the ZK identity toolkit on the Optimism network.
 
 ## Core Concepts of Privado ID: Verifiable Credentials, Identity Holder, Issuer and Verifier
 
@@ -28,7 +29,7 @@ Every identity is identified by a unique identifier called [DID (Decentralized I
 
 :::note
 
-The toolset made available by Privado ID (prev. Polygon ID) is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Polygon ID DID method</ins>](https://github.com/0xPolygonID/did-polygonid).
+The toolset is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Optimism ID DID method</ins>](https://github.com/wakeuplabs-io/opid-method-spec).
 
 :::
 
@@ -45,7 +46,7 @@ The simplest example of a Verifier is a bar that wants to verify if a client is 
 A core concept here is the _trust_ that must exist between a Verifier and an Issuer: the fact that the information contained inside a VC is cryptographically verifiable doesn't guarantee it's true. The Issuer must be a trusted and reputable party so that Verifier can consume the VCs originated by that Issuer.
 
 <div align="center">
-<img src= {useBaseUrl('/img/triangle-of-trust-simple.png')} align="center" width="700"/>
+<img src='../assets/triangle-of-trust-simple.png' align="center" width="700"/>
 </div>
 
 ## Role of a Wallet
@@ -67,19 +68,3 @@ A [Wallet](./wallet/wallet-overview.md) plays a crucial role in the seamless exc
 
 <a href="https://iden3.io/" target="_blank">Iden3</a> is the open-source protocol at the basis of Privado ID. The protocol defines on a low-level how the parties listed above communicate and interact with each other. Privado ID is an abstraction layer to enable developers to build applications leveraging the Iden3 protocol.
 
-## Further Resources On Privado ID (prev. Polygon ID)
-
-- [Privado ID Youtube Playlists](https://www.youtube.com/@PrivadoID/playlists?view=50&sort=dd&shelf_id=5)
-- [Polygon ID DID Method Overview at SSI Meetup (April 2023)](https://ssimeetup.org/polygonid-zero-knowledge-identity-web2-web3-otto-mora-webinar-62/)
-- [Adding Verifiable Credentials to your crypto wallet - Eth CC July 2023](https://www.youtube.com/watch?v=5fv8e-k8t98)
-- [The Future of Identity is Self-Sovereign: Build a dapp with Polygon ID - ETH Global - November 2022](https://youtu.be/utpazrLrSbY)
-- [A Deep Dive into Polygon ID - ETH Vietnam - November 2022](https://youtu.be/fQ9DiGUnvwA)
-- [Identity Layer for Web3 - Paris - July 2022](https://youtu.be/bmRvQNmxFkM)
-
-## Further Resources On Verifiable Credentials
-
-- [Verifiable Credentials: The Ultimate Guide](https://www.dock.io/post/verifiable-credentials)
-- [Understanding and Using Verifiable Credentials](https://www.youtube.com/watch?v=BxLSSH_EHjo)
-- [Polygon ID DID Method Specification](https://github.com/0xPolygonID/did-polygonid)
-
----
