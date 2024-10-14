@@ -2,27 +2,24 @@
 id: smart-contracts
 title: Smart Contracts
 sidebar_label: Smart Contracts
-description: Smart Contracts used by the Polygon ID solution.
+description: Smart Contracts used by the Optimism ID solution.
 keywords:
   - docs
-  - polygon id
+  - opid id
   - smart
   - contract
 ---
 
-<a href="https://github.com/0xPolygonID/contracts" target="_blank">Polygon ID Smart Contracts - Github</a>
-
-:::caution
-\*Polygon Mumbai testnet has been deprecated
-:::
+<a href="https://github.com/wakeuplabs-io/opid-contracts" target="_blank">Optimism ID Smart Contracts - Github</a>
 
 ## State Contract addresses
 
 For situations where one needs to publish data on the blockchain, such as creating an MTP-type credential, generating on-chain proofs and making credential revocations effective, it is important to have the following Smart Contracts addresses:
 
-- Testnet(amoy) -> `0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124`
-- Mainnet -> `0x624ce98D2d27b20b8f8d521723Df8fC4db71D79D`
-- Testnet(mumbai)**\*** -> `0x134B1BE34911E39A8397ec6289782989729807a4`
+|        Network             |     Address                                |
+|:--------------------------:|:------------------------------------------:|
+| **Optimism Mainnet** | TODO: |
+| **Optimism Sepolia** | 0x9a1A258702050BcFB938Ad8Ec0996503473216d1 |
 
 :::info
 Check a contract codebase and algorithms of work <ins>[docs](https://docs.iden3.io/contracts/state/)</ins>, <ins>[repository](https://github.com/iden3/contracts/tree/master/contracts/state)</ins>.
@@ -30,68 +27,28 @@ Check a contract codebase and algorithms of work <ins>[docs](https://docs.iden3.
 
 ## IdentityTreeStore contract (On-chain RHS)
 
-|         Network          |                  Address                   |
-| :----------------------: | :----------------------------------------: |
-|   **Polygon Mainnet**    | 0xbEeB6bB53504E8C872023451fd0D23BeF01d320B |
-| **Polygon Amoy testnet** | 0x3d3763eC0a50CE1AdF83d0b5D99FBE0e3fEB43fb |
-| Polygon Mumbai testnet\* | 0x16A1ae4c460C0a42f0a87e69c526c61599B28BC9 |
+|        Network             |     Address                                |
+|:--------------------------:|:------------------------------------------:|
+| **Optimism Mainnet** | TODO: |
+| **Optimism Sepolia** | 0xa36D2Ed3Dd32B96979D94Ea4cb541059A2029484 |
 
 ## UniversalVerifier contract
 
 |         Network          |                  Address                   |
 | :----------------------: | :----------------------------------------: |
-|   **Polygon Mainnet**    | 0x394d1dad46907bd54d15926A1ab4535EF2BF47b1 |
-| **Polygon Amoy testnet** | 0x1B20320042b29AE5c1a3ADc1674cb6bF8760530f |
+|   **Optimism Mainnet** | TODO: |
+| **Optimism sepolia** | 0x102eB31F9f2797e8A84a79c01FFd9aF7D1d9e556 |
 
 ## Validator addresses
 
-Current addresses on **Polygon Mainnet** (V2.0.1 V2 validators):
+Current addresses on **Optimism Sepolia** 
 
-|                   |                                Sig                                |                               MTP                                |
-| :---------------: | :---------------------------------------------------------------: | :--------------------------------------------------------------: |
-|   **Verifier**    |            0xa0495df44ABBDbfCD1da30638869A3307BF21532             |            0x068b3dDE10b55643b55aA4820c7a977dEEEc3c07            |
-|  **Validators**   |            0xEF8540a5e0F4f53B436e7C3A273dCAe1C05d764D             |            0x03Ee09635E9946165dd9538e9414f0ACE57e42e1            |
-| **ERC20 example** | 0xB9Ac8e785f854f9B76bBF6d495213d58226DE813 (request id = 1 (sig)) | 0xB9Ac8e785f854f9B76bBF6d495213d58226DE813 (request id = 2 (mtp) |
-
-Current addresses on **Polygon Amoy** testnet. (V2.0.1 V2 validators)
-
-|                   |                             Sig                             |                             MTP                             |
-| :---------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
-|   **Verifier**    |         0x35178273C828E08298EcB0C6F1b97B3aFf14C4cb          |         0x789D95794973034BFeDed6D4693e7cc3Eb253B3a          |
-|  **Validators**   |         0x8c99F13dc5083b1E4c16f269735EaD4cFbc4970d          |         0xEEd5068AD8Fecf0b9a91aF730195Fef9faB00356          |
-| **ERC20 example** | 0x2b23e5cF70D133fFaA7D8ba61E1bAC4637253880 (request id = 1) | 0x2b23e5cF70D133fFaA7D8ba61E1bAC4637253880 (request id = 2) |
-
-Current addresses on **Polygon Mumbai** testnet**\***. (V2.0.1 V2 validators):
-
-|                   |                             Sig                             |                             MTP                             |
-| :---------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
-|   **Verifier**    |         0x81ef49013627F363570a1C60B0D2215E23651B01          |         0xe5DB0489979C5671D9785cF1cBA9D9028041c9Bf          |
-|  **Validators**   |         0x59f2a6D94D0d02F3a2F527a8B6175dc511935624          |         0xb9b51F7E8C83C90FE48e0aBd815ef0418685CcF6          |
-| **ERC20 example** | 0x3a4d4E47bFfF6bD0EF3cd46580D9e36F3367da03 (request id = 1) | 0x3a4d4E47bFfF6bD0EF3cd46580D9e36F3367da03 (request id = 2) |
-
-Current addresses for V3 beta circuit on **Polygon Amoy** testnet. (2.0.1-beta.1 V3 validator):
-
-|                      |                                         V3 validator 2.0.1-beta.1                                          |
-| :------------------: | :--------------------------------------------------------------------------------------------------------: |
-|     **Verifier**     |                                 0x07Bbd95505c44B65D7FA3B08dF6F5859373Fa1DC                                 |
-|    **Validators**    |                                 0xa5f08979370AF7095cDeDb2B83425367316FAD0B                                 |
-| **ERC20 SD example** |                        0xc5Cd536cb9Cc3BD24829502A39BE593354986dc4 (request id = 3)                         |
-|  **ERC20 example**   | 0xc5Cd536cb9Cc3BD24829502A39BE593354986dc4 (request id = 100 - 1100 merklized / 10000 - 65000 nonmerklized |
-
-Current addresses for V3 beta circuit on **Polygon Mumbai** testnet**\***. (2.0.1-beta.1 V3 validator):
-
-|                      |                                         V3 validator 2.0.1-beta.1                                          |
-| :------------------: | :--------------------------------------------------------------------------------------------------------: |
-|     **Verifier**     |                                 0xDE27fc243Bf4eDAaB72E1008c9828C480582f672                                 |
-|    **Validators**    |                                 0x3412AB64acFf5d94Da4914F176A43aCbDdC7Fc4a                                 |
-| **ERC20 SD example** |                        0x36eB0E70a456c310D8d8d15ae01F6D5A7C15309A (request id = 3)                         |
-|  **ERC20 example**   | 0x36eB0E70a456c310D8d8d15ae01F6D5A7C15309A (request id = 100 - 1100 merklized / 10000 - 65000 nonmerklized |
-
-:::note
-More about <ins>[v3 circuit](./verifier/v3-circuit)</ins>.
-
-Check the examples of deployment for <ins>[ v3 validator](https://github.com/0xPolygonID/contracts/blob/main/scripts/deployV3Validator.ts)</ins>
-:::
+| | Sig | MTP | V3 |
+|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
+| **Validators** | 0xbA308e870d35A092810a3F0e4d21ece65551dE42 | 0x6e009702a8b16Dca15Fa145E3906B13E75Dc516e | 0xd52131eDC6777d7F7199663dc1629307E13d723A |
+| **ERC20Verifier example** | 0xca6bfa62791d3c7c7ed1a5b320018c1C1dAC89Ee (request id = 1) | 0xca6bfa62791d3c7c7ed1a5b320018c1C1dAC89Ee  (request id = 2) | 0xca6bfa62791d3c7c7ed1a5b320018c1C1dAC89Ee  (request id = 3) |
+| **ERC20LinkedUniversalVerifier example** | 0x76A9d02221f4142bbb5C07E50643cCbe0Ed6406C (request id = 1) | 0x76A9d02221f4142bbb5C07E50643cCbe0Ed6406C  (request id = 2) | 0x76A9d02221f4142bbb5C07E50643cCbe0Ed6406C  (request id = 3) |
+| **ERC20SelectiveDisclosure example** | - | - | 0x9001f41Fbe63fF09635Fe8Dfc532035BA34348B9  (request id = 3) |
 
 ## CredentialAtomicQuerySigValidator
 

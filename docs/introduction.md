@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Introduction to Privado ID (prev. Polygon ID)
+title: Introduction to Privado ID / Optimism ID
 sidebar_label: Introduction
 description: Privado ID main concepts.
 keywords:
@@ -19,13 +19,17 @@ Privado ID’s identity infrastructure facilitates trusted and secure relationsh
 
 Privado ID, with the help of zero-knowledge proofs, lets users prove their identity without the need of exposing their private information. This ensures both the **Freedom of Expression** and **Privacy by Default** (user's identities are secured by zero-knowledge cryptography).
 
+## Why Optimism ID?
+
+Optimism ID is the result of a [Mission Request](https://gov.optimism.io/t/ready-to-vote-zk-toolkit-for-zk-application-developers/7444) from the optimism community. The goal of this mission is to provide applications on Optimism with a toolkit that enables trusted, secure relationships between apps and users, emphasizing self-sovereign identity and privacy. While Privado ID is technically chain-agnostic, it was primarily designed for Polygon and required some adjustments to function on Optimism. Optimism ID is a fork of Privado ID, specifically tailored to simplify the implementation of the ZK identity toolkit on the Optimism network.
+
 ## Core Concepts of Privado ID: Verifiable Credentials, Identity Holder, Issuer and Verifier
 
 Every identity is identified by a unique identifier called [DID (Decentralized Identifier)](https://www.w3.org/TR/did-core/). Every identity-based information is represented via [Verifiable Credentials (VCs)](https://www.w3.org/TR/vc-data-model/). In the simplest terms, a VC represents any type of information related to an individual/enterprise/object. The VC could be as simple as the age of the entity or the highest degree held by it. It could also be a membership certificate issued by a DAO, for instance.
 
 :::note
 
-The toolset is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Polygon ID DID method</ins>](https://github.com/0xPolygonID/did-polygonid).
+The toolset is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Optimism ID DID method</ins>](https://github.com/wakeuplabs-io/opid-method-spec).
 
 :::
 
