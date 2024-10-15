@@ -20,11 +20,8 @@ An issuer might be:
 - A Face detection Machine Learning application that issues "proof of personhood" claims.
 - An employer that endorses its employees.
 
-:::info
 
-[<ins>Verifiable Credentials</ins>](https://www.w3.org/TR/vc-data-model/) are a flexible data format able to express any type of information so that developers can unleash their creativity.
-
-:::
+> [<ins>Verifiable Credentials</ins>](https://www.w3.org/TR/vc-data-model/) are a flexible data format able to express any type of information so that developers can unleash their creativity.
 
 # Operating an issuer
 

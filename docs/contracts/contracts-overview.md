@@ -21,9 +21,7 @@ For situations where one needs to publish data on the blockchain, such as creati
 | **Optimism Mainnet** | TODO: |
 | **Optimism Sepolia** | 0x9a1A258702050BcFB938Ad8Ec0996503473216d1 |
 
-:::info
-Check a contract codebase and algorithms of work <ins>[docs](https://docs.iden3.io/contracts/state/)</ins>, <ins>[repository](https://github.com/iden3/contracts/tree/master/contracts/state)</ins>.
-:::
+> Check a contract codebase and algorithms of work <ins>[docs](https://docs.iden3.io/contracts/state/)</ins>, <ins>[repository](https://github.com/iden3/contracts/tree/master/contracts/state)</ins>.
 
 ## IdentityTreeStore contract (On-chain RHS)
 

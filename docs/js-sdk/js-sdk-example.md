@@ -71,11 +71,8 @@ We have created a [JS SDK Example repository](https://github.com/wakeuplabs-io/o
    };
    ```
 
-:::note
+> The `CredentialStorage` accepts the interface of the Data Storage; it does not require Memory or Browser Storage. You can implement your own storage, be it SQL storage or any other type of storage.
 
-The `CredentialStorage` accepts the interface of the Data Storage; it does not require Memory or Browser Storage. You can implement your own storage, be it SQL storage or any other type of storage.
-
-:::
 
 `Identity` stores identities and profiles.
 `mt` stores Merkle Trees.
@@ -136,11 +133,7 @@ const { did, credential } = await wallet.createIdentity({
 
 If we do not use `rhsUrl` within createIdentity() method, we get a `credentialStatus` with a URL as `id`, which contains an API to fetch the revocation status. Also, in this case, the `type` of the `credentialStatus` is `SparseMerkleTreeProof`.
 
-:::note
-
-`revocationOpts` should provide info on how to fetch the status of a credential. If we use `CredentialStatusType.Iden3ReverseSparseMerkleTreeProof` within createIdentity() method, we get a `credentialStatus` with a Reverse Hash Service URL (`rhsUrl`) as `id`, which, upon running on a browser, shows a response that contains information about the identity state. If we use `CredentialStatusType.Iden3SparseMerkleTreeProof` within `createIdentity()` method, we get a `credentialStatus` with a URL as `id`, which contains an API to fetch the revocation status.
-
-:::
+> `revocationOpts` should provide info on how to fetch the status of a credential. If we use `CredentialStatusType.Iden3ReverseSparseMerkleTreeProof` within createIdentity() method, we get a `credentialStatus` with a Reverse Hash Service URL (`rhsUrl`) as `id`, which, upon running on a browser, shows a response that contains information about the identity state. If we use `CredentialStatusType.Iden3SparseMerkleTreeProof` within `createIdentity()` method, we get a `credentialStatus` with a URL as `id`, which contains an API to fetch the revocation status.
 
 ### Issue Credential
 

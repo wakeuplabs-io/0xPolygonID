@@ -17,11 +17,7 @@ Based on the Iden3 core protocol libraries, the Optimism ID JS SDK is used for i
 
 The Optimism ID JS SDK allows developers to create applications like mobile or web wallets, browser extensions, and issuer nodes. Using this SDK, developers can start creating and issuing verifiable credentials, and generating zero knowledge proofs based on our [Iden3 protocol](https://docs.iden3.io/). Individuals and organizations can use this SDK for their existing applications.
 
-:::note
-
-With JS SDK, you can build custom applications/modules by providing your own implementation of our core interfaces. The functionalities that we provide in these tutorials can be extended as per your requirements. For example, JS SDK does not provide a codebase for database storage but you can implement that by extending the SDK's functionalities.
-
-:::
+> With JS SDK, you can build custom applications/modules by providing your own implementation of our core interfaces. The functionalities that we provide in these tutorials can be extended as per your requirements. For example, JS SDK does not provide a codebase for database storage but you can implement that by extending the SDK's functionalities.
 
 ## Why JS SDK?
 
@@ -49,11 +45,7 @@ The following components form the inherent part of the JS SDK. In the upcoming t
 
 - Node.js must be installed on your system. Version 16.14 or above is required for Optimism ID JS SDK.
 
-:::note
-
-While installing Node.js, make sure that you select all the checkboxes related to the dependencies.
-
-:::
+> While installing Node.js, make sure that you select all the checkboxes related to the dependencies.
 
 - A browser where you can install and manage your browser wallet.
 
@@ -104,14 +96,9 @@ JS SDK is a fully-functional wrapper on top of our Iden3 core libraries. The fol
 
 - <a href="https://github.com/iden3/js-merkletree" target="_blank">JS Merkle Tree</a> JavaScript implementation for creating a Sparse Merkle Tree (SMT). It carries code implementation for the browser, local storage, and memory.
 
-:::info
-
-Follow the links below to learn more about W3C standards for DID (Decentralised Identifier) and Verifiable Credentials:
-
-- <ins><a href="https://www.w3.org/TR/did-core/" target="_blank">DID</a></ins>
-- <ins><a href="https://www.w3.org/TR/vc-data-model/" target="_blank">Verifiable Credentials</a></ins>
-
-:::
+> Follow the links below to learn more about W3C standards for DID (Decentralised Identifier) and Verifiable Credentials:
+> - <ins><a href="https://www.w3.org/TR/did-core/" target="_blank">DID</a></ins>
+> - <ins><a href="https://www.w3.org/TR/vc-data-model/" target="_blank">Verifiable Credentials</a></ins>
 
 ## What Can Be Built Upon JS SDK?
 

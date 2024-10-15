@@ -27,11 +27,9 @@ Optimism ID is the result of a [Mission Request](https://gov.optimism.io/t/ready
 
 Every identity is identified by a unique identifier called [DID (Decentralized Identifier)](https://www.w3.org/TR/did-core/). Every identity-based information is represented via [Verifiable Credentials (VCs)](https://www.w3.org/TR/vc-data-model/). In the simplest terms, a VC represents any type of information related to an individual/enterprise/object. The VC could be as simple as the age of the entity or the highest degree held by it. It could also be a membership certificate issued by a DAO, for instance.
 
-:::note
 
-The toolset is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Optimism ID DID method</ins>](https://github.com/wakeuplabs-io/opid-method-spec).
+> The toolset is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Optimism ID DID method</ins>](https://github.com/wakeuplabs-io/opid-method-spec).
 
-:::
 
 The architecture of the framework is composed of three modules: Identity Holder, Issuer, and Verifier. These three, together, form what we call the **Triangle of Trust**. Let us see what role each entity plays in Privado ID.
 
